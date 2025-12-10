@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "FLUX.2 Image Generator powered by Cloudflare Workers AI with multi-reference support",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "tail": "wrangler tail"
+    "preinstall": "npx -y only-allow npm",
+    "postinstall": "npm install wrangler@latest --save-dev --no-save || true",
+    "deploy": "npx wrangler deploy",
+    "dev": "npx wrangler dev",
+    "tail": "npx wrangler tail"
   },
   "keywords": [
     "flux",
@@ -29,7 +32,7 @@
     "url": "https://github.com/kinai9661/flux2-workers-ai/issues"
   },
   "homepage": "https://github.com/kinai9661/flux2-workers-ai#readme",
-  "devDependencies": {
+  "dependencies": {
     "wrangler": "^3.96.0"
   }
 }
