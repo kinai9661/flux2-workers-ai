@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/kinai9661/flux2-workers-ai/issues"
   },
-  "homepage": "https://github.com/kinai9661/flux2-workers-ai#readme"
+  "homepage": "https://github.com/kinai9661/flux2-workers-ai#readme",
+  "devDependencies": {
+    "wrangler": "^3.96.0"
+  }
 }
