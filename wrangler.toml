@@ -1,4 +1,4 @@
-name = "flux2-image-generator"
+name = "flux2-image"
 main = "src/index.js"
 compatibility_date = "2024-11-25"
 
