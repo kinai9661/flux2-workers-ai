@@ -1,0 +1,32 @@
+{
+  "name": "flux2-workers-ai",
+  "version": "1.0.0",
+  "description": "FLUX.2 Image Generator powered by Cloudflare Workers AI with multi-reference support",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "flux",
+    "flux2",
+    "image-generation",
+    "ai",
+    "cloudflare",
+    "workers-ai",
+    "black-forest-labs",
+    "text-to-image",
+    "stable-diffusion"
+  ],
+  "author": "kinai9661",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinai9661/flux2-workers-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kinai9661/flux2-workers-ai/issues"
+  },
+  "homepage": "https://github.com/kinai9661/flux2-workers-ai#readme"
+}
